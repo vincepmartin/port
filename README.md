@@ -35,4 +35,19 @@ The renderer is a React + Typescript + TailwindCSS application. We use IPC to co
 
 The urbit binaries for each respective OS should live in the `resources` folder under the respective OS' folder. They aren't included because of size, but you can get them by running the `get-urbit.sh` script.
 
+### Contributing 
+Port is a work in progress and we would love help making it the best it can be!  Below are steps to help you get your development enviornment up and running.
+
+#### Requirements
+- node version ^16 (Port currently does not build via node 17) https://nodejs.org
+- yarn https://yarnpkg.com/
+- node-gyp https://github.com/nodejs/node-gyp
+
+Below are steps that should get you up and running on a GNU/Linux system.
+1. Install node.js version ^16
+2. Install yarn via terminal `npm install -g yarn`
+3. Install node-gyp via terminal `npm install -g node-gyp`
+
+With these following packages you should then be able to run `yarn install` on the Port project.
+
 ![Mothership](https://hmillerdev.nyc3.digitaloceanspaces.com/nocsyx-lassul/BALEEN%20CLASS_PATREON_190519.jpg)
