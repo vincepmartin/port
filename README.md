@@ -21,7 +21,7 @@ The architecture is built based off of James Long's article, [The Secret of Good
 
 ### Main
 
-The main process' primary responsbility should be creation of windows and anything that requires interaction with the OS. Anything else should be diverted to the background window to ensure high performance.
+The main process' primary responsibility should be creation of windows and anything that requires interaction with the OS. Anything else should be diverted to the background window to ensure high performance.
 
 ### Background
 
@@ -33,10 +33,10 @@ The renderer is a React + Typescript + TailwindCSS application. We use IPC to co
 
 ### Urbit
 
-The urbit binaries for each respective OS should live in the `resources` folder under the respective OS' folder. They aren't included because of size, but you can get them by running the `get-urbit.sh` script.
+The Urbit binaries for each respective OS should live in the `resources` folder under the respective OS' folder. They aren't included because of size, but you can get them by running the `get-urbit.sh` script.
 
 ### Contributing 
-Port is a work in progress and we would love help making it the best it can be!  Below are steps to help you get your development enviornment up and running.
+Port is a work in progress and we would love help making it the best it can be!  Below are steps to help you get your development environment up and running.
 
 #### Requirements
 - node version ^16 (Port currently does not build via node 17) https://nodejs.org
